@@ -1,0 +1,7 @@
+parameters:
+  projetnormandie_connectiva.client.class: Gitlab\Client
+
+services:
+  connectiva_api:
+    alias: projetnormandie_connectiva.client.default
+    public: true
